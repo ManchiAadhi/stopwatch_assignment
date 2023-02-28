@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stopwatch_assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div id="parent">
+        <div id="child">
+            <div id="time">
+                <span id="hour">00</span>:<span id="min">00</span>:<span id="sec">00</span>:<span id="mil">000</span>
+            </div>
+            <div id="buttons">
+                <button onclick="startfunction()"   id="start">start</button>
+                <button onclick="pausefunction()" id="pause">pause</button>
+                <button onclick="resetfunction()" id="reset">reset</button>
+                <button onclick="castfunction()" id="cast">cast</button>
+            </div>
+                
+        </div>
+
+        <div id="display"></div>
+    </div>
+
+
+</body>
+<script src="script.js"></script>
+</html>
